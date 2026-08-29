@@ -20,6 +20,7 @@ python3 tools/apply_dvisvarita.py tools/input/ps.txt
 ### Accent Rules
 - svarita on a dirgha → dvisvarita
 - svarita on a syllable with anusvara or closed n / r → dvisvarita
+  - **TODO**: Check if we need to update the parser to look ahead for trailing `ರ್` or `ನ್`. In Sanskrit Documents 2-mark encoding (e.g. `ವಿಷ್ಣು॑ರ್`), the svarita mark (`॑`) is sometimes placed *before* the trailing consonant, meaning our `_cluster_before` check misses it. Waiting for a second occurrence to confirm if this requires an algorithm update.
 - short open svarita stays svarita
 
 ### Pada and Numbering Rules

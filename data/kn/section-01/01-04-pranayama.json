@@ -1,0 +1,26 @@
+{
+  "section_id": "01",
+  "subsection_id": "01-04",
+  "title": "ಪ್ರಾಣಾಯಾಮ",
+  "same_as_previous": false,
+  "source_pages": "33, 59",
+  "yajnopavita_position": "upaviti_savya",
+  "items_needed_now": [],
+  "place": "ಕರ್ಮಸ್ಥಳ",
+  "actions": ["ಪವಿತ್ರದ ನಂತರ ಪ್ರಾಣಾಯಾಮ"],
+  "mantras": [
+    {
+      "id": "vyahriti",
+      "unicode": "ಓಂ ಭೂಃ। ಓಂ ಭುವಃ। ಓಂ ಸುವಃ। ಓಂ ಮಹಃ। ಓಂ ಜನಃ। ಓಂ ತಪಃ। ಓಂ ಸತ್ಯಂ।"
+    },
+    {
+      "id": "gayatri",
+      "source": "RV 3.62.10",
+      "unicode": "ಓಂ ತ॒ತ್ ಸ॑ವಿತು॒ರ್ವರೇ॑ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ।\nಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ॑ತ್॥"
+    },
+    {
+      "id": "apo_jyoti",
+      "unicode": "ಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂ॒ರ್ಭುವಃ॒ ಸುವರೋಮ್॥"
+    }
+  ]
+}

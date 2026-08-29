@@ -13,9 +13,9 @@
     "ಕಲಶಸ್ಥಾಪನೆಯ ನಂತರ ಪ್ರಾಯಶ್ಚಿತ್ತ ಮಂತ್ರಗಳನ್ನು ಪಠಿಸಿ",
     "ಮೊದಲು ஋ಗ್ವೇದ ಪುರುಷಸೂಕ್ತ RV 10.90",
     "ನಂತರ RV 1.22.16–21",
-    "ನಂತರ RV 10.128 ಮತ್ತು 4.40.5 (ಪುಟ 63–64)"
+    "ನಂತರ RV 10.128 ಮತ್ತು 4.40.5"
   ],
-  "danda_rule": "ಪ್ರತಿ ஋ಕ್ಕಿನ ಮೊದಲ ಪಾದ । ; ಎರಡನೇ ಪಾದ ॥ + ಸಂಖ್ಯೆ.",
+  "danda_rule": "first pada danda; second double danda plus number",
   "accent_pipeline": {
     "input": "Kannada 2-mark from Sanskrit Documents",
     "converter": "tools/apply_dvisvarita.py",
@@ -25,7 +25,7 @@
   "blocks": [
     {
       "id": "purusha_sukta_rv",
-      "label": "RV Purusha sukta",
+      "label": "RV 10.90",
       "source": "RV 10.90",
       "status": "fill via converter"
     }
@@ -36,8 +36,9 @@
       "label": "ಪುರುಷಸೂಕ್ತ 1",
       "rv": "10.90.1",
       "accent_status": "converter_pass1",
-      "dvisvarita_applied": ["mim svarita", "to svarita"],
-      "unicode": "see workspace file after clone — converter output in local artifacts"
+      "two_mark_input": "ಸ॒ಹಸ್ರ॑ಶೀರ್ಷಾ॒ ಪುರು॑ಷಃ ಸಹಸ್ರಾ॒ಕ್ಷಃ ಸ॒ಹಸ್ರ॑ಪಾತ್\nಸ ಭೂಮಿಂ॑ ವಿ॒ಶ್ವತೋ॑ ವೃ॒ತ್ವಾತ್ಯ॑ತಿಷ್ಠದ್ದಶಾಂಗು॒ಲಮ್",
+      "dvisvarita_applied": ["ಮಿಂ॑", "ತೋ॑"],
+      "unicode": "ಸ॒ಹಸ್ರ॑ಶೀರ್ಷಾ॒ ಪುರು॑ಷಃ ಸಹಸ್ರಾ॒ಕ್ಷಃ ಸ॒ಹಸ್ರ॑ಪಾತ್।\nಸ ಭೂಮಿಂ᳚ ವಿ॒ಶ್ವತೋ᳚ ವೃ॒ತ್ವಾತ್ಯ॑ತಿಷ್ಠದ್ದಶಾಂಗು॒ಲಮ್॥ ೧"
     }
   ],
   "notes": ["Clean restart 2026-08-29"]

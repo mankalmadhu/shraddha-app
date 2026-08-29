@@ -1,0 +1,8 @@
+{
+  "note": "Later-stage work.",
+  "items": [
+    {"id": "TODO-001", "status": "open", "where": "01-02", "task": "acamana patha later"},
+    {"id": "TODO-010", "status": "open", "where": "project", "task": "Pass 2 accents"},
+    {"id": "TODO-012", "status": "open", "where": "01-07", "task": "verify dvisvarita vs household scan after converter"}
+  ]
+}

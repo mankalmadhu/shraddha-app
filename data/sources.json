@@ -1,0 +1,10 @@
+{
+  "note": "Reference register only. Not ritual instructions.",
+  "authority_rule": "Household prayoga PDFs = order and actions. Converter + Sanskrit Documents = 2-mark text. Vidwan rule = dvisvarita.",
+  "sources": [
+    {"id": "SRC-PRAYOGA", "file": "rigveda shraddha.pdf", "role": "primary_prayoga"},
+    {"id": "SRC-TA-KN", "file": "taittirIyaAraNyaka-kn.pdf", "role": "mantra_accent"},
+    {"id": "SRC-PRAYOGA-2", "file": "shradha_source2.pdf", "role": "verification_prayoga"},
+    {"id": "SRC-PS-SCAN", "file": "purusha_sukta.pdf", "role": "household_prayoga_crop"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "section_id": "01",
+  "subsection_id": "01-01",
+  "title": "ಗುರುವಂದನ",
+  "same_as_previous": false,
+  "source_pages": "59",
+  "yajnopavita_position": "upaviti_savya",
+  "items_needed_now": [],
+  "place": "ಕರ್ಮಸ್ಥಳ",
+  "actions": [
+    "ಶ್ರೀ / ಶ್ರೀ ಗುರುಭ್ಯೋ ನಮಃ",
+    "ಗುರು ಮಂತ್ರ ಹೇಳಿ ನಮಸ್ಕಾರ"
+  ],
+  "mantras": [
+    {
+      "id": "guru_mantra",
+      "label": "ಗುರು ಮಂತ್ರ",
+      "unicode": "ಗುರುರ್ಬ್ರಹ್ಮಾ ಗುರುರ್ವಿಷ್ಣುಃ ಗುರುರ್ದೇವೋ ಮಹೇಶ್ವರಃ।\nಗುರುಃ ಸಾಕ್ಷಾತ್ ಪರಂ ಬ್ರಹ್ಮ ತಸ್ಮೈ ಶ್ರೀಗುರವೇ ನಮಃ॥"
+    }
+  ]
+}

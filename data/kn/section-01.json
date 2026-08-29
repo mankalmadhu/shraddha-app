@@ -1,0 +1,18 @@
+{
+  "section_id": "01",
+  "section_name": "ಶುದ್ಧೀಕರಣ",
+  "section_name_english": "Shuddhikarana",
+  "description": "ಕರ್ಮ ಪ್ರಾರಂಭದ ಶುದ್ಧಿ",
+  "source_pages": "31-35, 59-68",
+  "subsections_exhaustive": [
+    {"id": "01-01", "title": "ಗುರುವಂದನ", "source_pages": "59"},
+    {"id": "01-02", "title": "ದ್ವಿರಾಚಮನ", "source_pages": "31, 59"},
+    {"id": "01-03", "title": "ಪವಿತ್ರಧಾರಣ", "source_pages": "31-32, 59"},
+    {"id": "01-04", "title": "ಪ್ರಾಣಾಯಾಮ", "source_pages": "33, 59"},
+    {"id": "01-05", "title": "ಸಂಕಲ್ಪ", "source_pages": "33, 59"},
+    {"id": "01-06", "title": "ಕಲಶಸ್ಥಾಪನ", "source_pages": "33, 60-61"},
+    {"id": "01-07", "title": "ಪ್ರಾಯಶ್ಚಿತ್ತ ಮಂತ್ರಗಳು", "source_pages": "59, 61-65"},
+    {"id": "01-08", "title": "ಶರೀರಶುದ್ಧಿ ಮಂತ್ರಗಳು", "source_pages": "66-67"},
+    {"id": "01-09", "title": "ಬ್ರಹ್ಮದಂಡ", "source_pages": "34, 67-68"}
+  ]
+}

@@ -1,0 +1,5 @@
+preview/*.png
+__pycache__/
+*.pyc
+.DS_Store
+data/kn/section-01/_bak/

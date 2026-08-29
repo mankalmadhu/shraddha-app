@@ -1,0 +1,44 @@
+{
+  "section_id": "01",
+  "subsection_id": "01-07",
+  "title": "ಪ್ರಾಯಶ್ಚಿತ್ತ",
+  "same_as_previous": false,
+  "source_pages": "61-63 SRC-PRAYOGA (order and actions only)",
+  "yajnopavita_position": "upaviti_savya",
+  "items_needed_now": [
+    "ಕಲಶಜಲ"
+  ],
+  "place": "ಕರ್ಮಸ್ಥಳ; ಕಲಶಸ್ಥಾಪನೆಯ ನಂತರ",
+  "actions": [
+    "ಕಲಶಸ್ಥಾಪನೆಯ ನಂತರ ಪ್ರಾಯಶ್ಚಿತ್ತ ಮಂತ್ರಗಳನ್ನು ಪಠಿಸಿ",
+    "ಮೊದಲು ஋ಗ್ವೇದ ಪುರುಷಸೂಕ್ತ RV 10.90",
+    "ನಂತರ RV 1.22.16–21",
+    "ನಂತರ RV 10.128 ಮತ್ತು 4.40.5 (ಪುಟ 63–64)"
+  ],
+  "danda_rule": "ಪ್ರತಿ ஋ಕ್ಕಿನ ಮೊದಲ ಪಾದ । ; ಎರಡನೇ ಪಾದ ॥ + ಸಂಖ್ಯೆ.",
+  "accent_pipeline": {
+    "input": "Kannada 2-mark from Sanskrit Documents",
+    "converter": "tools/apply_dvisvarita.py",
+    "rule": "svarita on dirgha or closed by anusvara / n / r -> dvisvarita",
+    "verify": "after GitHub push: check dvisvarita only against household prayoga scan"
+  },
+  "blocks": [
+    {
+      "id": "purusha_sukta_rv",
+      "label": "RV Purusha sukta",
+      "source": "RV 10.90",
+      "status": "fill via converter"
+    }
+  ],
+  "mantras": [
+    {
+      "id": "ps_01",
+      "label": "ಪುರುಷಸೂಕ್ತ 1",
+      "rv": "10.90.1",
+      "accent_status": "converter_pass1",
+      "dvisvarita_applied": ["mim svarita", "to svarita"],
+      "unicode": "see workspace file after clone — converter output in local artifacts"
+    }
+  ],
+  "notes": ["Clean restart 2026-08-29"]
+}

@@ -1,24 +1,30 @@
 {
   "section_id": "01",
   "subsection_id": "01-07b",
-  "title": "\u0c97\u0cbe\u0caf\u0ca4\u0ccd\u0cb0\u0cc0 \u0c9c\u0caa",
+  "title": "ಗಾಯತ್ರೀ ಜಪ",
   "same_as_previous": false,
   "source_pages": "65 SRC-PRAYOGA",
   "yajnopavita_position": "upaviti_savya",
   "items_needed_now": [],
-  "place": "\u0c95\u0cb0\u0ccd\u0cae\u0cb8\u0ccd\u0ca5\u0cb3; \u0caa\u0ccd\u0cb0\u0cbe\u0caf\u0cb6\u0ccd\u0c9a\u0cbf\u0ca4\u0ccd\u0ca4 \u0cae\u0c82\u0ca4\u0ccd\u0cb0\u0c97\u0cb3 \u0ca8\u0c82\u0ca4\u0cb0",
+  "place": "ಕರ್ಮಸ್ಥಳ; ಪ್ರಾಯಶ್ಚಿತ್ತ ಮಂತ್ರಗಳ ನಂತರ",
   "actions": [
-    "\u0ca6\u0cb6 \u0c97\u0cbe\u0caf\u0ca4\u0ccd\u0cb0\u0cc0\u0c82 \u0c9c\u0caa\u0cc7\u0ca4\u0ccd"
+    "ದಶ ಗಾಯತ್ರೀಂ ಜಪೇತ್"
   ],
   "repeat": 10,
   "mantras": [
     {
-      "id": "gayatri_japa",
-      "label": "\u0c97\u0cbe\u0caf\u0ca4\u0ccd\u0cb0\u0cc0",
+      "id": "gayatri_01",
+      "label": "ಗಾಯತ್ರಿ ಮಂತ್ರ ೧",
       "rv": "3.62.10",
       "repeat": 10,
-      "accent_status": "from_01-04",
-      "unicode": "\u0c93\u0c82 \u0ca4\u0952\u0ca4\u0ccd \u0cb8\u0951\u0cb5\u0cbf\u0ca4\u0cc1\u0952\u0cb0\u0ccd\u0cb5\u0cb0\u0cc7\u0951\u0ca3\u0ccd\u0caf\u0c82\u0952 \u0cad\u0cb0\u0ccd\u0c97\u0ccb\u0951 \u0ca6\u0cc7\u0952\u0cb5\u0cb8\u0ccd\u0caf\u0951 \u0ca7\u0cc0\u0cae\u0cb9\u0cbf\u0964\n\u0ca7\u0cbf\u0caf\u0ccb\u0952 \u0caf\u0ccb \u0ca8\u0c83\u0951 \u0caa\u0ccd\u0cb0\u0c9a\u0ccb\u0952\u0ca6\u0caf\u0cbe\u0951\u0ca4\u0ccd\u0965"
+      "accent_status": "converter_pass1",
+      "two_mark_input": "ಓಂ ಭೂರ್ಭುವ॑ಸ್ಸುವಃ॒ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ॑ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ .\nಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ॑ತ್ .. ೩.೦೬೨.೧೦",
+      "dvisvarita_applied": [
+        "ರೇ॑",
+        "ರ್ಗೋ॑",
+        "ಯಾ॑"
+      ],
+      "unicode": "ಓಂ ಭೂರ್ಭುವ॑ಸ್ಸುವಃ॒ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ।\nಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್॥"
     }
   ]
 }

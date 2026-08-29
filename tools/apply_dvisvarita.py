@@ -81,6 +81,27 @@ def normalize_danda(pada1, pada2, number):
         num = " " + str(number).translate(str.maketrans("0123456789", "\u0ce6\u0ce7\u0ce8\u0ce9\u0cea\u0ceb\u0cec\u0ced\u0cee\u0cef"))
     return f"{a}\u0964\n{b}\u0965{num}"
 
+def extract_kannada_number(pada2: str):
+    # match something like "೧೦.೦೯೦.೦೧" at the end (allowing some dots before)
+    # Kannada digits are \u0ce6-\u0cef
+    match = re.search(r'([\u0ce6-\u0cef\.]+)$', pada2.strip())
+    if match:
+        kannada_num_str = match.group(1).strip('.')
+        # strip it from the pada
+        pada_stripped = pada2[:match.start()].strip()
+        pada_stripped = re.sub(r"[\.\u3002]+$", "", pada_stripped).strip()
+        
+        # translate to eng
+        eng_num_str = kannada_num_str.translate(str.maketrans("\u0ce6\u0ce7\u0ce8\u0ce9\u0cea\u0ceb\u0cec\u0ced\u0cee\u0cef", "0123456789"))
+        # split by . and strip leading zeros
+        parts = []
+        for p in eng_num_str.split('.'):
+            if p:
+                parts.append(str(int(p)))
+        rv = ".".join(parts)
+        return rv, pada_stripped
+    return "", pada2
+
 def parse_input(raw):
     raw = raw.strip()
     if not raw:
@@ -91,17 +112,41 @@ def parse_input(raw):
         if ":" in line:
             k, v = line.split(":", 1)
             fields[k.strip()] = v.strip()
+            
+    base_id = fields.get("id", "rk")
+    base_label = fields.get("label", base_id)
+    
+    # Strictly validate that the body contains only standard Unicode ranges and no English letters
+    invalid_match = re.search(r'[^\u0C80-\u0CFF\u1CD0-\u1CFF\u0951\u0952\u0964\u0965\u0300-\u036F\u200C\u200D\s\.\,\-\!\?0-9\(\)\[\]\{\}\:\;\'\"]', body)
+    if invalid_match:
+        char = invalid_match.group(0)
+        raise SystemExit(f"Error: Found illegal non-Unicode character in mantras: {repr(char)}. Please ensure input uses standard Kannada Unicode, not legacy ASCII fonts.")
+    
     lines = [ln.strip() for ln in body.splitlines() if ln.strip()]
-    if len(lines) < 2:
-        raise SystemExit("need two padas after ---")
-    return {
-        "id": fields.get("id", "rk"),
-        "rv": fields.get("rv", ""),
-        "label": fields.get("label", fields.get("id", "rk")),
-        "pada1": lines[0],
-        "pada2": lines[1],
-        "number": int(fields["n"]) if fields.get("n") else None,
-    }
+    
+    riks = []
+    seq = 1
+    
+    for i in range(0, len(lines), 2):
+        if i + 1 >= len(lines):
+            break
+        pada1 = lines[i]
+        pada2 = lines[i+1]
+        
+        rv, stripped_pada2 = extract_kannada_number(pada2)
+        
+        riks.append({
+            "id": f"{base_id}_{seq:02d}",
+            "label": f"{base_label} {seq}".translate(str.maketrans("0123456789", "\u0ce6\u0ce7\u0ce8\u0ce9\u0cea\u0ceb\u0cec\u0ced\u0cee\u0cef")),
+            "rv": rv,
+            "pada1": pada1,
+            "pada2": stripped_pada2,
+            "original_pada2": pada2,
+            "number": seq
+        })
+        seq += 1
+        
+    return riks
 
 def main():
     root = Path(__file__).resolve().parents[1]
@@ -109,30 +154,44 @@ def main():
     ap.add_argument("input", type=Path)
     ap.add_argument("--json", type=Path, default=root / "data/kn/section-01/01-07-prayascitta.json")
     args = ap.parse_args()
-    spec = parse_input(args.input.read_text(encoding="utf-8"))
-    n = spec["number"]
-    if n is None and spec["rv"]:
-        n = int(spec["rv"].rsplit(".", 1)[-1])
-    u1, a1 = apply_dvisvarita(spec["pada1"])
-    u2, a2 = apply_dvisvarita(spec["pada2"])
-    unicode_out = normalize_danda(u1, u2, n)
-    data = json.loads(args.json.read_text(encoding="utf-8"))
-    mantra = {
-        "id": spec["id"], "label": spec["label"], "rv": spec["rv"],
-        "accent_status": "converter_pass1",
-        "two_mark_input": spec["pada1"] + "\n" + spec["pada2"],
-        "dvisvarita_applied": a1 + a2,
-        "unicode": unicode_out,
-    }
-    existing = {m.get("id"): i for i, m in enumerate(data.get("mantras", []))}
-    if spec["id"] in existing:
-        data["mantras"][existing[spec["id"]]] = mantra
+    
+    riks = parse_input(args.input.read_text(encoding="utf-8"))
+    
+    if args.json.exists():
+        data = json.loads(args.json.read_text(encoding="utf-8"))
     else:
-        data.setdefault("mantras", []).append(mantra)
+        # Auto-initialize an empty JSON structure if the output file doesn't exist yet
+        data = {"mantras": []}
+    
+    existing = {m.get("id"): i for i, m in enumerate(data.get("mantras", []))}
+    
+    for spec in riks:
+        u1, a1 = apply_dvisvarita(spec["pada1"])
+        u2, a2 = apply_dvisvarita(spec["pada2"])
+        unicode_out = normalize_danda(u1, u2, None)
+        
+        mantra = {
+            "id": spec["id"], 
+            "label": spec["label"], 
+            "rv": spec["rv"],
+            "accent_status": "converter_pass1",
+            "two_mark_input": spec["pada1"] + "\n" + spec["original_pada2"],
+            "dvisvarita_applied": a1 + a2,
+            "unicode": unicode_out,
+        }
+        
+        if spec["id"] in existing:
+            data["mantras"][existing[spec["id"]]] = mantra
+        else:
+            data.setdefault("mantras", []).append(mantra)
+            existing[spec["id"]] = len(data["mantras"]) - 1
+            
+        print(f"[{spec['id']}] {unicode_out.replace(chr(10), ' ')}")
+        if a1 or a2:
+            print(f"  applied: {', '.join(a1 + a2)}")
+        
     args.json.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(unicode_out)
-    print("applied:", ", ".join(a1 + a2) or "(none)")
-    print("wrote", args.json)
+    print(f"wrote {len(riks)} riks to {args.json}")
     return 0
 
 if __name__ == "__main__":

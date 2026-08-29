@@ -59,6 +59,10 @@ def apply_dvisvarita(text: str):
     i = 0
     while i < len(text):
         if text[i] == SVARITA:
+            # Gentle warning for the user to hunt for Udatta/Svarita followed by half r/n
+            if i + 2 < len(text) and text[i+1:i+3] in {"\u0cb0\u0ccd", "\u0ca8\u0ccd"}:
+                print(f"👀 EYE-CHECK: Upper tick '॑' followed by half '{text[i+1:i+3]}' detected -> ...{text[max(0, i-6):min(len(text), i+8)]}...")
+                
             cl = _cluster_before(text, i)
             if _is_heavy(cl):
                 out.append(DVISVARITA)

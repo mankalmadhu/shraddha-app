@@ -1,0 +1,324 @@
+{
+    "section_id": "01",
+    "subsection_id": "01-09",
+    "title": "ಬ್ರಹ್ಮದಂಡ",
+    "same_as_previous": false,
+    "sources": {
+        "SB": "Śyāma Bhaṭṭa household prayoga (rigveda shraddha.pdf pp.67–70)",
+        "GVM": "G. Veṅkaṭeśa Mūrti Āśvalāyana Śrāddha Prayoga (Adobe Scan 30 Aug 2026 pp.13–20)"
+    },
+    "default_source": "GVM",
+    "ends_before": "ಪಾದಪ್ರಕ್ಷಾಲನ / ಮಂಡಲ ಪೂಜಾ",
+    "yajnopavita_default": "upaviti_savya",
+    "items_needed_now": [
+        "ತಿಲ (ಎಳ್ಳು) — ಬ್ರಹ್ಮದಂಡ",
+        "ಹಿರಣ್ಯ (ನಾಣ್ಯ)",
+        "ಕುಶ / ಮೂರು ತುಂಡು ದರ್ಭೆ",
+        "ಯವ / ಅಕ್ಷತ (ತೋಳಿದ ಅಕ್ಕಿ)",
+        "ತಿಲಪಾತ್ರ + ಯವಪಾತ್ರ",
+        "ಕಲಶೋದಕ, ಕೂಚ",
+        "ನಿಮಂತ್ರಿತ ಬ್ರಾಹ್ಮಣರು: ಕನಿಷ್ಠ ವಿಶ್ವೇದೇವ ೧ + ಪಿತೃ ೧; ವಿಷ್ಣು ಐಚ್ಛಿಕ"
+    ],
+    "place": "ಕರ್ಮಸ್ಥಳ; ಶಾರೀರ ಷಟ್ಕ / ಪ್ರೋಕ್ಷಣದ ನಂತರ",
+    "notes": [
+        "Structure same in SB and GVM. Cue savya/prācīnāvītin only when it changes.",
+        "GVM extra vs SB: show brahmadanda in prācīnāvītin before placing on ground in savya.",
+        "Last saṅkalpa verb: GVM ಕುರುಷ್ವ / ಕರಿಷ್ಯೇ; SB ಕರಿಷ್ಯೇ / ಕ್ರಿಯತಾಮ್ — keep both.",
+        "Stotra source unknown (prayoga-only).",
+        "Next file: 02 or 01-10 ಪಾದಪ್ರಕ್ಷಾಲನ."
+    ],
+    "steps": [
+        {
+            "id": "01-09-01",
+            "title": "ಬ್ರಹ್ಮದಂಡ ಗ್ರಹಣ + ತ್ರಿಃ ಪ್ರದಕ್ಷಿಣ ನಮಸ್ಕಾರ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ಬ್ರಹ್ಮದಂಡಾರ್ಥಂ ಸತಿಲ ಹಿರಣ್ಯ ಕುಶಯವಾಕ್ಷತಗಳನ್ನು ಹಿಡಿದು ನಿಮಂತ್ರಿತ ಬ್ರಾಹ್ಮಣರಿಗೆ ಮೂರು ಪ್ರದಕ್ಷಿಣೆ ನಮಸ್ಕಾರ.",
+            "sanskrit_rubric": "ಬ್ರಹ್ಮದಂಡಾರ್ಥಂ ಸತಿಲ ಹಿರಣ್ಯ ಕುಶಯವಾಕ್ಷತಾನ್ ಗೃಹೀತ್ವಾ ಬ್ರಾಹ್ಮಣಾನಾಂ ತ್ರಿಃ ಪ್ರದಕ್ಷಿಣ ನಮಸ್ಕಾರಾನ್ ಕುರ್ಯಾತ್",
+            "detail_kn": "ಕನಿಷ್ಠ: ವಿಶ್ವೇದೇವಸ್ಥಾನಕ್ಕೆ ಒಬ್ಬ, ಪಿತೃಸ್ಥಾನಕ್ಕೆ ಒಬ್ಬ. ವಿಷ್ಣುಸ್ಥಾನ ಐಚ್ಛಿಕ. ಹೆಚ್ಚು ಕರ್ತೃಗಳಿದ್ದರೆ ಕಿರಿಯನು ಮುಂದೆ; ಆಚಾರ್ಯ ಕೊನೆಗೆ."
+        },
+        {
+            "id": "01-09-02",
+            "title": "ಓಂ ಓಂ + ಬ್ರಾಹ್ಮಣಪಾದಪಾಂಸು ಸ್ತೋತ್ರ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "source_mantra": "unknown",
+            "accent_status": "none",
+            "action_kn": "ಓಂ ಓಂ ಹೇಳಿ ಸ್ತೋತ್ರ ಜಪಿಸಿ.",
+            "mantras": [
+                {
+                    "id": "om_om",
+                    "unicode": "ಓಂ ಓಂ"
+                },
+                {
+                    "id": "pada_pamsu_01",
+                    "unicode": "ಸಮಸ್ತ ಸಂಪತ್ಸಮವಾಪ್ತಿ ಹೇತವಃ।\nಸಮುತ್ಥಿತಾಽಪತ್ಕುಲ ಧೂಮಕೇತವಃ।"
+                },
+                {
+                    "id": "pada_pamsu_02",
+                    "unicode": "ಅಪಾರ ಸಂಸಾರ ಸಮುದ್ರ ಸೇತವಃ।\nಪುನಂತು ಮಾಂ ಬ್ರಾಹ್ಮಣ ಪಾದ ಪಾಂಸವಃ॥"
+                },
+                {
+                    "id": "pada_pamsu_03",
+                    "unicode": "ಆಪಧ್ಘನಧ್ವಾಂತ ಸಹಸ್ರ ಭಾನವಃ।\nಸಮೀಹಿತಾರ್ಥಾರ್ಪಣ ಕಾಮಧೇನವಃ॥"
+                },
+                {
+                    "id": "pada_pamsu_04",
+                    "unicode": "ಸಮಸ್ತ ತೀರ್ಥಾಂಬು ಪವಿತ್ರಮೂರ್ತಯೋ।\nರಕ್ಷಂತು ಮಾಂ ಬ್ರಾಹ್ಮಣ ಪಾದಪಾಂಸವಃ॥"
+                },
+                {
+                    "id": "pada_pamsu_05",
+                    "label": "GVM sixth verse (confirm vs SB)",
+                    "source": "GVM",
+                    "unicode": "ಸರ್ವಾಗಮಾಮ್ನಾಯ ಫಲೈಕಹೇತವಃ।\nಸರ್ವಾರ್ಥರಕ್ಷೋಗಣ ಧೂಮಕೇತವಃ।\nಅನಾದ್ಯವಿದ್ಯಾಘನಸಾರ ಸೇವತಃ।\nಪುನಂತುಮಾಂ ಬ್ರಾಹ್ಮಣ ಪಾದ ಪಾಂಸವಃ॥"
+                }
+            ]
+        },
+        {
+            "id": "01-09-03",
+            "title": "ಬ್ರಹ್ಮದಂಡ ತೋರಿಸುವುದು",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "source": "GVM",
+            "variant_sb": "SB does not isolate this show-step; goes to placing + yathāśakti.",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ಕೈಯಲ್ಲಿರುವ ಬ್ರಹ್ಮದಂಡವನ್ನು ಬ್ರಾಹ್ಮಣರಿಗೆ ತೋರಿಸಿ."
+        },
+        {
+            "id": "01-09-04",
+            "title": "ಯಥಾಶಕ್ತಿ ಬ್ರಹ್ಮದಂಡ ನಿಧಾನ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಸವ್ಯ. ಬ್ರಹ್ಮದಂಡವನ್ನು ಬ್ರಾಹ್ಮಣರ ಮುಂದೆ ನೆಲದ ಮೇಲೆ ಇಡಿ.",
+            "mantras": [
+                {
+                    "id": "yathasakti",
+                    "unicode": "ಏತೇಭ್ಯೋ ಬ್ರಾಹ್ಮಣೇಭ್ಯೋ ನಮಃ। ಇಮೇ ಕುಶಾಃ ಯಥಾಶಕ್ತಿ ಬ್ರಹ್ಮದಂಡಃ॥"
+                }
+            ],
+            "kartṛ_says": "ಯಥಾಶಕ್ತಿ ಬ್ರಹ್ಮದಂಡವನ್ನು ಹಾಕಿದ್ದೇನೆ",
+            "priest_reply": "ಅಸ್ತು ಬ್ರಹ್ಮದಂಡಃ। / ಬ್ರಹ್ಮದಂಡಃ ಸ್ವೀಕೃತಃ"
+        },
+        {
+            "id": "01-09-05",
+            "title": "ಶ್ರೀಪುಷ್ಟಿಕೀರ್ತಿ + ನಮೋ ಬ್ರಹ್ಮಣ್ಯದೇವಾಯ + ಸಾಷ್ಟಾಂಗ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "source_mantra": "unknown",
+            "action_kn": "ಶ್ಲೋಕಗಳನ್ನು ಹೇಳಿ ಬ್ರಾಹ್ಮಣರಿಗೆ ಸಾಷ್ಟಾಂಗ ನಮಸ್ಕಾರ.",
+            "mantras": [
+                {
+                    "id": "adhi_vyadhi",
+                    "unicode": "ಅಧಿವ್ಯಾಧಿಹರಂ ನೃಣಾಂ ಮೃತ್ಯುದಾರಿದ್ರನಾಶನಂ | ಶ್ರೀ ಪುಷ್ಟಿ ಕೀರ್ತಿದಂ ವಂದೇ ವಿಪ್ರಶ್ರೀ ಪಾದಪಂಕಜಂ । ವಿಪ್ರೌಘ ದರ್ಶನಾತ್ಸದ್ಯಃ ಕ್ಷೀಯಂತೇ ಪಾಪರಾಶಯಃ | ವಂದನಾನ್ಮಂಗಳಾವಾಪ್ತಿ: ಅರ್ಚನಾದಚ್ಯುತಂ ಪದಂ || "
+                },
+                {
+                    "id": "namo_brahmanya",
+                    "unicode": "ನಮೋ ಬ್ರಾಹ್ಮಣ ದೇವಾಯ ಗೋಬ್ರಾಹ್ಮಣ ಹಿತಾಯ ಚ | ಜಗದ್ಧಿತಾಯ ಕೃಷ್ಣಾಯ ಗೋವಿಂದಾಯ ನಮೋ ನಮಃ ||"
+                },
+                {
+                    "id": "namaskara",
+                    "unicode": " || ನಮಸ್ಕೃತ್ಯ ||"
+                }
+            ]
+        },
+        {
+            "id": "01-09-06",
+            "title": "ಯಾವತೀರ್ವೈ ದೇವತಾಃ + ಪ್ರೀಣಾತು",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "source_mantra": "taittareya_aranyaka 0.2.15.19",
+            "action_kn": "ಯಾವತೀರ್ವೈ ಮಂತ್ರ. ಬ್ರಾಹ್ಮಣರು ಪ್ರೀಣಾತು ಎನ್ನುತ್ತಾರೆ.",
+            "mantras": [
+                {
+                    "id": "yavatir_vai",
+                    "unicode": "ಯಾವ॑ತೀ॒ರ್ವೈ ದೇ॒ವತಾ॒ಸ್ತಾಸ್ಸರ್ವಾ॑ ವೇದ॒ವಿದಿ॑ ಬ್ರಾಹ್ಮ॒ಣೇ ವ॑ಸಂತಿ॒ ತಸ್ಮಾ᳚ದ್ಬ್ರಾಹ್ಮ॒ಣೇಭ್ಯೋ॑ ವೇದ॒ವಿದ್ಭ್ಯೋ॑ ದಿ॒ವೇ ದಿ॑ವೇ॒ ನಮ॑ಸ್ಕುರ್ಯಾ॒ನ್ನಾಶ್ಲೀ॒ಲಂ ಕೀ᳚ರ್ತಯೇದೇ॒ತಾ ಏ॒ವ ದೇ॒ವತಾಃ᳚ ಪ್ರೀಣಾತಿ ॥"
+                }
+            ],
+            "priest_reply": "ಪ್ರೀಣಾತು"
+        },
+        {
+            "id": "01-09-07",
+            "title": "ಅಧಿಕಾರ + ಮುಖ್ಯಕಾಲ ಅನುಜ್ಞೆ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ಅಧಿಕಾರ ಸಂಪನ್ನೋಽಸ್ತು ಮತ್ತು ಮುಖ್ಯಕಾಲೋಽಸ್ತು ಎಂದು ಕೇಳಿ.",
+            "mantras": [
+                {
+                    "id": "adhikara",
+                    "unicode": "ಅಸ್ಮತ್ಪಿತುಃ / ಅಸ್ಮನ್ಮಾತುಃ ಪ್ರತಿಸಾಂವತ್ಸರಿಕ ಮೃತಾಹನ್ನಶ್ರಾದ್ಧಂ ಕರ್ತುಂ (ಮುಖ್ಯಕಾಲೋ ಭೂತ್ವಾ) ಮಮ ಅಧಿಕಾರ ಸಂಪದಸ್ತ್ವಿತಿ ಭವಂತೋ ಬ್ರುವಂತು॥"
+                },
+                {
+                    "id": "mukhya_kala",
+                    "unicode": "ಕಾಲಶ್ಚ ಮುಖ್ಯಕಾಲೋಽಸ್ತು ॥"
+                }
+            ],
+            "priest_reply": [
+                "ಅಧಿಕಾರಸಂಪನ್ನೋಽಸ್ತು",
+                "ಕಾಲಶ್ಚ ಮುಖ್ಯಕಾಲೋಽಸ್ತು"
+            ]
+        },
+        {
+            "id": "01-09-08",
+            "title": "ಸಂಕಲ್ಪ — ಪ್ರಾಣಾಯಾಮ + ಗೋವಿಂದ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಸವ್ಯ. ಪ್ರಾಣಾಯಾಮ, ನಂತರ ದೇಶಕಾಲ ಸಂಕಲ್ಪ (ಗೋವಿಂದ ಗೋವಿಂದ …).",
+            "same_as": "01-05 sankalpa prefix; reuse when pruning",
+            "mantras": [
+                {
+                    "id": "pranayama_vyahṛti",
+                    "unicode": "ಓಂ ಭೂಃ। ಓಂ ಭುವಃ। ಓಂ ಸುವಃ। ಓಂ ಮಹಃ। ಓಂ ಜನಃ। ಓಂ ತಪಃ। ಓಂ ಸತ್ಯಮ್॥"
+                },
+                {
+                    "id": "gayatri",
+                    "note": "same as 01-07b; do not duplicate accents here",
+                    "unicode": "ಓಂ ಭೂರ್ಭುವ॑ಸ್ಸುವಃ॒ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ।\nಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್॥"
+                },
+                {
+                    "id": "apo_jyoti",
+                    "unicode": "ಓಂ ಆಪೋ ಜ್ಯೋತೀ ರಸೋಽಮೃತಂ ಬ್ರಹ್ಮ ಭೂರ್ಭುವಸ್ಸುವರೋಮ್॥"
+                },
+                {
+                    "id": "govinda_desakala",
+                    "unicode": "ಶ್ರೀ ಗೋವಿಂದ ಗೋವಿಂದ ಶ್ರೀಮನ್ಮಹಾವಿಷ್ಣೋರಾಜ್ಞಯಾ ಪ್ರವರ್ತಮಾನಸ್ಯ … ಅಸ್ಯಾಂ ಪುಣ್ಯತಿಥೌ"
+                }
+            ]
+        },
+        {
+            "id": "01-09-09",
+            "title": "ಮೃತಾಹನ್ನ ಶ್ರಾದ್ಧ — ಪಿತೃ ಪಕ್ಷ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "facing": "ದಕ್ಷಿಣಾಭಿಮುಖ; ವಾಮಜಾನು",
+            "hands": "ಎಡಗೈ ತಿಲಪಾತ್ರ + ದರ್ಭೆ; ಬಲಗೈ ಮೇಲೆ",
+            "source": "both",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ, ದಕ್ಷಿಣಾಭಿಮುಖ, ಎಡಗಾಲು ಮಂಡಿ. ತಿಲಪಾತ್ರ.",
+            "sanskrit_rubric": "ದಕ್ಷಿಣಾಭಿಮುಖೋ ಭೂತ್ವಾ ವಾಮಂ ಜಾನ್ವಾಚ್ಯ ದರ್ಭಮುಷ್ಟಿಂ ತಿಲಪಾತ್ರಂಚ ದಕ್ಷಿಣಾಂಕೇ ನಿಕ್ಷಿಪ್ಯ",
+            "mantras": [
+                {
+                    "id": "asmat_pituh_pita",
+                    "unicode": "ಅಸ್ಮತ್ಪಿತುಃ ಪ್ರತಿಸಾಂವತ್ಸರಿಕ ಮೃತಾಹನ್ನಶ್ರಾದ್ಧೇ ಅಸ್ಮತ್ ಪಿತೃಪಿತಾಮಹಪ್ರಪಿತಾಮಹಾನಾಂ ___ಶರ್ಮಣಾಂ ___ಗೋತ್ರಾಣಾಂ ವಸುರುದ್ರಾದಿತ್ಯರೂಪಾಣಾಂ"
+                },
+                {
+                    "id": "asmat_matuh",
+                    "when": "ತಾಯಿ ಶ್ರಾದ್ಧ",
+                    "unicode": "ಅಸ್ಮನ್ಮಾತುಃ … ಮಾತೃಪಿತಾಮಹೀಪ್ರಪಿತಾಮಹೀನಾಂ ___ದೇವೀ ___ಗೋತ್ರಾಣಾಂ ವಸುರುದ್ರಾದಿತ್ಯರೂಪಾಣಾಂ"
+                }
+            ]
+        },
+        {
+            "id": "01-09-10",
+            "title": "ವಿಶ್ವೇದೇವ — ಪುರೂರವಾರ್ದ್ರವ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "facing": "ಪೂರ್ವಾಭಿಮುಖ; ದಕ್ಷಿಣಜಾನು",
+            "hands": "ಎಡಗೈ ಯವಪಾತ್ರ + ದರ್ಭೆ; ಬಲಗೈ ಮೇಲೆ",
+            "source": "both",
+            "action_kn": "ಸವ್ಯ, ಪೂರ್ವಾಭಿಮುಖ. ಯವಪಾತ್ರ.",
+            "sanskrit_rubric": "ಪೂರ್ವಾಭಿಮುಖೋ ದಕ್ಷಿಣಂ ಜಾನ್ವಾಚ್ಯ  ದರ್ಭಮುಷ್ಟಿಂ ಯವಪಾತ್ರಂಚ ಚ ವಾಮಾಂಕೇ ನಿಕ್ಷಿಪ್ಯ",
+            "mantras": [
+                {
+                    "id": "pururava",
+                    "unicode": "ಪುರೂರವಾರ್ದ್ರವ ಸಂಜ್ಞಕಾನಾಂ ವಿಶ್ವೇಷಾಂ ದೇವಾನಾಂ ಚ"
+                }
+            ]
+        },
+        {
+            "id": "01-09-11",
+            "title": "ಅನುಜ್ಞಾ ಸಂಕಲ್ಪ ಮುಕ್ತಾಯ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "facing": "ದಕ್ಷಿಣಾಭಿಮುಖ; ವಾಮಜಾನು",
+            "source": "both",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ಹವಿಷಾ ಪಾರ್ವಣವಿಧಾನೇನ ಯುಷ್ಮದನುಜ್ಞಯಾ ಅದ್ಯ ಕರಿಷ್ಯೇ. ಸ್ವಲ್ಪ ತಿಲವನ್ನು ತಟ್ಟೆಗೆ ಹಾಕಿ.",
+            "mantras": [
+                {
+                    "id": "anujna_karisye",
+                    "unicode": "ಅಸ್ಮತ್ಪಿತುಃ / ಅಸ್ಮನ್ಮಾತುಃ ಪ್ರತಿಸಾಂವತ್ಸರಿಕ ಮೃತಾಹನ್ನಶ್ರಾದ್ಧಂ ಅನ್ನೇನ ಹವಿಷಾ ಪಾರ್ವಣ ವಿಧಾನೇನ ಯುಷ್ಮದನುಜ್ಞಯಾ ಸದೈವಂ ಶ್ರಾದ್ಧಂ ಅದ್ಯ ಕರಿಷ್ಯೇ॥"
+                }
+            ],
+            "variants": {
+                "GVM": "ಬ್ರಾಹ್ಮಣರು: ಕುರುಷ್ವ",
+                "SB": "ಕ್ರಿಯತಾಮ್ / ಕರಿಷ್ಯೇ"
+            },
+            "priest_reply_gvm": "ಕುರುಷ್ವ",
+            "priest_reply_sb": "ಕ್ರಿಯತಾಮ್"
+        },
+        {
+            "id": "01-09-12",
+            "title": "ವಿಶ್ವೇದೇವ ಕ್ಷಣ ಸ್ವೀಕಾರ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಸವ್ಯ. ವಿಶ್ವೇದೇವಸ್ಥಾನಕ್ಕೆ ಕೂಚದಿಂದ ಹಸ್ತೋದಕ ಒಂದು ಸಲ. ದರ್ಭೆ ಎರಡು ತುಂಡು ಕೈಗೆ. ಕ್ಷಣ ಪ್ರಸಾದ ಕೇಳಿ.",
+            "mantras": [
+                {
+                    "id": "visva_kshana",
+                    "unicode": "ಪುರೂರವಾರ್ದ್ರವ ಸಂಜ್ಞಕಾನಾಂ ವಿಶ್ವೇಷಾಂ ದೇವಾನಾಂ ಸ್ಥಾನೇ ಆಹವನೀಯಾರ್ಥೇ ಕ್ಷಣಂ ದತ್ತ್ವಾ ಭವದ್ಭಿಃ ಕ್ಷಣಃ ಪ್ರಸಾದಃ ಕರಣೀಯಃ॥"
+                }
+            ],
+            "priest_reply": "ಓಂ ತಥಾ"
+        },
+        {
+            "id": "01-09-13",
+            "title": "ಪಿತೃ ಕ್ಷಣ ಸ್ವೀಕಾರ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ಪಿತೃ/ಮಾತೃಸ್ಥಾನಕ್ಕೆ ಹಸ್ತೋದಕ, ತಿಲಪೂಜೆ, ದರ್ಭೆ ಮೂರು ತುಂಡು, ಕ್ಷಣ.",
+            "mantras": [
+                {
+                    "id": "pitru_kshana",
+                    "unicode": "ಪಿತೃಪಿತಾಮಹಪ್ರಪಿತಾಮಹಾನಾಂ ___ದೇವಶರ್ಮಣಾಂ ___ಗೋತ್ರಾಣಾಂ ವಸುರುದ್ರಾದಿತ್ಯರೂಪಾಣಾಂ ಸ್ಥಾನೇ ಆಹವನೀಯಾರ್ಥೇ ಕ್ಷಣಂ ದತ್ತ್ವಾ ಭವದ್ಭಿಃ ಕ್ಷಣಃ ಪ್ರಸಾದಃ ಕರಣೀಯಃ॥"
+                }
+            ],
+            "priest_reply": "ಓಂ ತಥಾ"
+        },
+        {
+            "id": "01-09-14",
+            "title": "ದೇವಾನಾಂ ಚ / ಪಿತೃಣಾಂ ಚ",
+            "source": "both",
+            "actions": [
+                {
+                    "yajnopavita": "upaviti_savya",
+                    "yajnopavita_cue": true,
+                    "unicode": "ದೇವಾನಾಂ ಚ",
+                    "action_kn": "ಸವ್ಯ. ವಿಶ್ವೇದೇವರನ್ನು ಉದ್ದೇಶಿಸಿ."
+                },
+                {
+                    "yajnopavita": "pracinaviti",
+                    "yajnopavita_cue": true,
+                    "unicode": "ಅಸ್ಮತ್ ಪಿತೃಣಾಂ ಚ / ಅಸ್ಮತ್ ಮಾತೃಣಾಂ ಚ",
+                    "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ಪಿತೃ/ಮಾತೃಗಳನ್ನು ಉದ್ದೇಶಿಸಿ."
+                }
+            ]
+        },
+        {
+            "id": "01-09-15",
+            "title": "ಸ್ವಾಗತಮ್ + ಅಕ್ರೋಧನೈಃ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "variant_note": "GVM: both brāhmaṇas after savya svāgatam. SB wording of akrodha line may differ slightly.",
+            "action_kn": "ಸವ್ಯ. ಇಬ್ಬರಿಗೂ ಕೈಮುಗಿದು ಸ್ವಾಗತಮ್. ಶ್ಲೋಕ. ಬ್ರಾಹ್ಮಣರು ಸುಸ್ವಾಗತಮ್ / ತಥಾಹಿ.",
+            "mantras": [
+                {
+                    "id": "svagatam",
+                    "kartṛ": "ಸ್ವಾಗತಮ್",
+                    "priest_reply": "ಸುಸ್ವಾಗತಮ್"
+                },
+                {
+                    "id": "akrodhanaih",
+                    "unicode": "ಅಕ್ರೋಧನೈಃ ಶೌಚಪರೈಃ ಸತತಂ ಬ್ರಹ್ಮವಾದಿಭಿಃ।\nಭವಿತವ್ಯಂ ಭವದ್ಭಿಶ್ಚ ಮಯಾ ಚ ಶ್ರಾದ್ಧಕರ್ಮಣಿ॥",
+                    "priest_reply": "ತಥಾಹಿ"
+                }
+            ]
+        }
+    ]
+}

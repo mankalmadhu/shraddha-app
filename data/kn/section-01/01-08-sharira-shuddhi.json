@@ -1,0 +1,129 @@
+{
+  "section_id": "01",
+  "subsection_id": "01-08",
+  "title": "ಶಾರೀರ ಷಟ್ಕಜಪ",
+  "same_as_previous": false,
+  "source_pages": "66-67 SRC-PRAYOGA; shatka_japa.pdf",
+  "yajnopavita_position": "upaviti_savya",
+  "items_needed_now": [
+    "ಕಲಶಜಲ ಅಥವಾ ಕುಂಭ",
+    "ಮೂರು ದರ್ಭೆ (ಪ್ರೋಕ್ಷಣ)"
+  ],
+  "place": "ಕರ್ಮಸ್ಥಳ; ದಶ ಗಾಯತ್ರೀ ಜಪದ ನಂತರ",
+  "actions": [
+    "ದಶ ಗಾಯತ್ರೀ ಜಪದ ನಂತರ ಶಾರೀರ ಷಟ್ಕವನ್ನು ಜಪಿಸಿ",
+    "ಷಟ್ಕದ ನಂತರ ಮೂರು ದರ್ಭೆಯಿಂದ ಕಲಶ/ಕುಂಭದ ನೀರನ್ನು ಪ್ರೋಕ್ಷಿಸಿ",
+    "ಪ್ರೋಕ್ಷಣಕ್ಕೆ ಅಪವಿತ್ರಃ ಪವಿತ್ರೋ ವಾ ಮತ್ತು ಶುಚಿ-ೋಕ್ಕುಗಳು",
+    "ಸರ್ವಾಣಿ ಸ್ಥಲಾನಿ ಶುಚೀನಿ ಭವಂತು ಎಂದು ಮುಗಿಸಿ",
+    "ನಂತರ ಬ್ರಹ್ಮದಂಡ (೦೧-೦೯)"
+  ],
+  "mantras": [
+    {
+      "id": "vinayoga",
+      "label": "ವಿನಿಯೋಗ",
+      "source": "unknown",
+      "accent_status": "user_typed",
+      "unicode": "ಶಾರೀರ ಷಟ್ಕಸ್ಯ। ಆತ್ಮಾ ೋಷಿಃ। ಸತ್ಯೋ ದೇವತಾ। ಪ್ರಕೃತಿ ಪುರುಷಂ ಛಂದಃ। ಮಮ ಶರೀರ ಶುಧ್ಯರ್ಥೇ ಜಪೇ ವಿನಿಯೋಗಃ॥",
+      "source_note": "printed in multiple \u0100\u015bval\u0101yana / sm\u0101rta prayoga books; no single \u015b\u0101stra id found"
+    },
+    {
+      "id": "satka_01",
+      "label": "ಷಟ್ಕ \u0ce7",
+      "source": "unknown",
+      "accent_status": "user_typed",
+      "unicode": "ಶಾರೀರಮಂತಃ ಕರುಣೋಪಘಾತಂ ವಾಚಶ್ಚ ವಿಷ್ಣುರ್ಭಗವಾನಶೇಷಃ।\nಶಮಂ ನಯತ್ವಾಶು ಮಮೇಹ ಶರ್ಮ ಪಾಪದನಂತೇ ಹೃದಿ ಸನ್ನಿವಿಷ್ಟೇ॥",
+      "source_note": "printed in multiple \u0100\u015bval\u0101yana / sm\u0101rta prayoga books; no single \u015b\u0101stra id found"
+    },
+    {
+      "id": "satka_02",
+      "label": "ಷಟ್ಕ \u0ce8",
+      "source": "unknown",
+      "accent_status": "user_typed",
+      "unicode": "ಅಂತಃಶುದ್ಧಿಂ ಬಹಿಃ ಶುದ್ಧಿಂ ಶುದ್ಧೋ ಧರ್ಮಮಯೋಚ್ಯುತಃ।\nಸ ಕರೋತ್ವಮರೇ ತಸ್ಮಿನ್ ಶುಚಿರೇವಾಸ್ಮಿ ಸರ್ವದಾ॥",
+      "source_note": "printed in multiple \u0100\u015bval\u0101yana / sm\u0101rta prayoga books; no single \u015b\u0101stra id found"
+    },
+    {
+      "id": "satka_03",
+      "label": "ಷಟ್ಕ \u0ce9",
+      "source": "unknown",
+      "accent_status": "user_typed",
+      "unicode": "ಬಾಹ್ಯೋಪಘಾತಾನನಘೋ ಭೌದ್ಧಾಂಶ್ಚ ಭಗವಾನಜಃ।\nಶಮಂ ನಯತ್ವನಂತಾತ್ಮಾ ವಿಷ್ಣುಶ್ಚೇತಸಿ ಸಂಸ್ಥಿತಃ॥",
+      "source_note": "printed in multiple \u0100\u015bval\u0101yana / sm\u0101rta prayoga books; no single \u015b\u0101stra id found"
+    },
+    {
+      "id": "satka_04",
+      "label": "ಷಟ್ಕ \u0cea",
+      "source": "unknown",
+      "accent_status": "user_typed",
+      "unicode": "ಶಾರೀರಂ ಮೇ ಹೃಷೀಕೇಶ ಪುಂಡರೀಕಾಕ್ಷ ಮಾನಸಮ್।\nಪಾಪಂ ಪ್ರಶಮಯಾದ್ಯ ತ್ವಂ ವಾಕ್ಕೃತಂ ಮಮ ಮಾಧವ॥",
+      "source_note": "printed in multiple \u0100\u015bval\u0101yana / sm\u0101rta prayoga books; no single \u015b\u0101stra id found"
+    },
+    {
+      "id": "satka_05",
+      "label": "ಷಟ್ಕ \u0ceb",
+      "source": "unknown",
+      "accent_status": "user_typed",
+      "unicode": "ಯದ್ಯಪ್ಯುಪಹತಃ ಪಾಪೈಃ ಯದಿವಾತ್ಯಂತ ದುಷ್ಕೃತೈಃ।\nತಥಾಪಿ ಸಂಸ್ಮರೇದ್ವಿಷ್ಣುಂ ಸರ್ವಪಾಪೈಃ ಪ್ರಮುಚ್ಯತೇ॥",
+      "source_note": "printed in multiple \u0100\u015bval\u0101yana / sm\u0101rta prayoga books; no single \u015b\u0101stra id found"
+    },
+    {
+      "id": "satka_06",
+      "label": "ಷಟ್ಕ \u0cec / ಪ್ರೋಕ್ಷಣ",
+      "source": "unknown (m\u0101rjana; also printed Brahma Vaivarta / Li\u1e45ga)",
+      "accent_status": "user_typed",
+      "action": "ಮೂರು ದರ್ಭೆಯಿಂದ ನೀರು ಪ್ರೋಕ್ಷಿಸಿ",
+      "unicode": "ಅಪವಿತ್ರಃ ಪವಿತ್ರೋ ವಾ ಸರ್ವಾವಸ್ಥಾಂ ಗತೋಽಪಿ ವಾ।\nಯಃ ಸ್ಮರೇತ್ ಪುಂಡರೀಕಾಕ್ಷಂ ಸ ಬಾಹ್ಯಾಭ್ಯಂತರಃ ಶುಚಿಃ॥"
+    },
+    {
+      "id": "suci_01",
+      "label": "ಶುಚಿ \u0ce7",
+      "rv": "8.44.21",
+      "source": "RV 8.44.21; TS 1.3.14.8",
+      "accent_status": "needs_converter",
+      "unicode": "ಅಗ್ನಿಃ ಶುಚಿ ವ್ರತತಮ ಶುಚಿ ವೀಪ್ರ ಶುಚಿಃ ಕವಿಃ ।\nಶುಚೀ ರೋಚತ ಆಹುತಃ ॥"
+    },
+    {
+      "id": "suci_02",
+      "label": "ಶುಚಿ \u0ce8",
+      "rv": "8.44.17",
+      "source": "RV 8.44.17",
+      "accent_status": "needs_converter",
+      "unicode": "ಉದಗ್ನೇ ಶುಚಯಸ್ತವ ಶುಕ್ರಾ ಭ್ರಾಜಂತ ಈರತೇ ।\nತವ ಜ್ಯೋತೀಂಷಿ ಚರ್ಚಯ ॥"
+    },
+    {
+      "id": "suci_03",
+      "label": "ಶುಚಿ \u0ce9",
+      "rv": "8.95.7",
+      "source": "RV 8.95.7",
+      "accent_status": "needs_converter",
+      "unicode": "ಏತೋ ನ್ವಿಂದ್ರಂ ಸ್ತವಾಮ ಶುದ್ಧಂ ಶುದ್ಧೇನ ಸಾಮ್ನಾ ।\nಶುದ್ಧೈರುಕ್ಥೈರ್ವಾವೃಧ್ವಾಂಸಂ ಶುದ್ಧ ಆಸೀದಂಸದ್ಯತಿ ॥"
+    },
+    {
+      "id": "suci_04",
+      "label": "ಶುಚಿ \u0cea",
+      "rv": "8.95.8",
+      "source": "RV 8.95.8",
+      "accent_status": "needs_converter",
+      "unicode": "ಇಂದ್ರ ಶುದ್ಧೋ ನ ಆಗಹಿ ಶುದ್ಧ ಶುದ್ಧಾಭಿರೂತಿಭಿಃ ।\nಶುದ್ಧೋ ರಯಿಂ ನಿಧಾರಯ ಶುದ್ಧೋ ಮಮದ್ಧಿ ಸೋಮ್ಯಮ್ ॥"
+    },
+    {
+      "id": "suci_05",
+      "label": "ಶುಚಿ \u0ceb",
+      "rv": "8.95.9",
+      "source": "RV 8.95.9",
+      "accent_status": "needs_converter",
+      "unicode": "ಇಂದ್ರ ಶುದ್ಧೋ ಹಿ ನೋ ರಯಿಂ ಶುದ್ಧೋ ರತ್ನಾನಿ ದಾಶುಷೇ ।\nಶುದ್ಧೋ ವೃತ್ರಾಣಿ ಜಿಘ್ನಸೇ ಶುದ್ಧೋ ವಾಜಂ ಸಿಷಾಸಸಿ ॥"
+    },
+    {
+      "id": "suci_close",
+      "label": "ಪ್ರೋಕ್ಷಣ ಮುಕ್ತಾಯ",
+      "source": "prayoga rubric",
+      "accent_status": "none",
+      "unicode": "ಸರ್ವಾಣಿ ಸ್ಥಲಾನಿ ಶುಚೀನಿ ಭವಂತು ॥ ಭವಂತು ಶುಚೀನಿ ॥"
+    }
+  ],
+  "notes": [
+    "Heading: ಶಾರೀರ ಷಟ್ಕಜಪ. Stotra first, then RV for proksana.",
+    "Converter only on suci_01-05. Stop at brahmadanda heading."
+  ]
+}

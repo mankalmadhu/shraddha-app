@@ -1,0 +1,52 @@
+{
+    "section_id": "02",
+    "section_name": "ಆವಾಹನ",
+    "section_name_english": "Avahana",
+    "description": "ಮಂಡಲ ಸ್ಥಾಪನ, ಪಾದಪ್ರಕ್ಷಾಲನ, ಸ್ಥಲಶುದ್ಧಿ, ಪಾಕಶುದ್ಧಿ — ನಿಮಂತ್ರಿತರನ್ನು ಒಳಗೆ ಕರೆಸುವವರೆಗೆ",
+    "default_source": "GVM",
+    "sources": {
+        "SB": "Śyāma Bhaṭṭa household prayoga (rigveda shraddha.pdf pp.70–73)",
+        "GVM": "G. Veṅkaṭeśa Mūrti (pada_prakshalana.pdf / book pp.20–26)"
+    },
+    "starts_after": "01-09 ಅಕ್ರೋಧನೈಃ / ತಥಾಹಿ",
+    "items_needed": [
+        "ಗೋಮಯ",
+        "ಕಲಶೋದಕ (ದೊಣ್ಣೆ)",
+        "ದರ್ಭೆ / ಕುಶ",
+        "ಗಂಧ",
+        "ಯವ / ತೊಳೆದ ಅಕ್ಷತ",
+        "ತಿಲ (ಕರಿ ಎಳ್ಳು)",
+        "ಉದ್ದರಣೆ",
+        "ಪಾದಪ್ರಕ್ಷಾಲನ ನೀರಿನ ದೊಡ್ಡ ಪಾತ್ರೆ + ಚೆಂಬು/ಸಣ್ಣ ಪಾತ್ರೆ",
+        "ಸಣ್ಣ ಅಗ್ರದ ಬಾಳೆಲೆ",
+        "ಕೂಚ",
+        "ಪವಿತ್ರ"
+    ],
+    "place": "ಗೃಹಾಂಗಣ / ಅಂಗಳ; ಉತ್ತರಭಾಗ",
+    "subsections_exhaustive": [
+        {
+            "id": "02-01",
+            "title": "ಪಾದಪ್ರಕ್ಷಾಲನ (ಮಂಡಲ ಪೂಜಾ)",
+            "source_pages_gvm": "20–24",
+            "source_pages_sb": "70–73"
+        },
+        {
+            "id": "02-02",
+            "title": "ಸ್ಥಲಶುದ್ಧಿ",
+            "source_pages_gvm": "25–26",
+            "source_pages_sb": "73"
+        },
+        {
+            "id": "02-03",
+            "title": "ಪಾಕಶುದ್ಧಿ",
+            "source_pages_gvm": "26",
+            "source_pages_sb": "73"
+        }
+    ],
+    "notes": [
+        "GVM default. SB adds optional Viṣṇu caturasra maṇḍala + viṣṇu svāgatam.",
+        "Cue savya/prācīnāvītin only when it changes.",
+        "RV accents (śaṃ no devīḥ, udīratām) pass-2 via converter.",
+        "JSON schema prune later."
+    ]
+}

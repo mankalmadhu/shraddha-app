@@ -1,0 +1,28 @@
+{
+    "section_id": "02",
+    "subsection_id": "02-03",
+    "title": "ಪಾಕಶುದ್ಧಿ",
+    "same_as_previous": false,
+    "default_source": "GVM",
+    "yajnopavita_default": "upaviti_savya",
+    "place": "ಪಾಕಸ್ಥಳ / ಅಡಿಗೆ",
+    "items_needed_now": [
+        "ಕೂಚ / ಪ್ರೋಕ್ಷಣೀಯೋದಕ"
+    ],
+    "notes": [
+        "GVM scan ends at the heading + short rubric. Fill mantras when next GVM page is attached.",
+        "SB p.73: ಪಾಕಾದೀನ್ ಗಾಳಯುತ್ವಾ ಪ್ರೋಕ್ಷ್ಯ — same stub."
+    ],
+    "steps": [
+        {
+            "id": "02-03-01",
+            "title": "ಪಾಕ ಪ್ರೋಕ್ಷಣ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "sanskrit_rubric": "ಪಾಕಾದೀನ್ ಗಾಂ ಖಾತ್ವಾ ಪ್ರೋಕ್ಷಣಂ ಕುರ್ಯಾತ್",
+            "action_kn": "ಪಾಕಾದಿ ಪದಾರ್ಥಗಳನ್ನು (ಗಾಳಿ/ಗುಡಿಸಿ) ಶುದ್ಧಿಮಾಡಿ ಪ್ರೋಕ್ಷಿಸು.",
+            "todo": "Next GVM page for any pāka-prokṣa mantra."
+        }
+    ]
+}

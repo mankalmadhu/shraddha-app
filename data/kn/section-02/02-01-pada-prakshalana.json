@@ -1,0 +1,188 @@
+{
+    "section_id": "02",
+    "subsection_id": "02-01",
+    "title": "ಪಾದಪ್ರಕ್ಷಾಲನ (ಮಂಡಲ ಪೂಜಾ)",
+    "same_as_previous": false,
+    "default_source": "GVM",
+    "yajnopavita_default": "upaviti_savya",
+    "place": "ಗೃಹಾಂಗಣ; ತನಗೆ ಅಭಿಮುಖ ಉತ್ತರಕ್ಕೆ ವಿಶ್ವೇದೇವ ಚತುರಸ್ರ, ಅದರ ದಕ್ಷಿಣಕ್ಕೆ ಪಿತೃ ವರ್ತುಲ",
+    "items_needed_now": [
+        "ಗೋಮಯ + ಕಲಶೋದಕ",
+        "ಗಂಧ, ಯವ, ತಿಲ, ದರ್ಭೆ",
+        "ಉದ್ದರಣೆ, ಪಾದಪ್ರಕ್ಷಾಲನ ನೀರು, ಚೆಂಬು",
+        "ಸಣ್ಣ ಅಗ್ರದ ಬಾಳೆಲೆ"
+    ],
+    "notes": [
+        "GVM: two maṇḍalas only. SB: third Viṣṇu caturasra with yava (tag variant_sb).",
+        "Viśvedeva pādya twice; pitṛ pādya three times.",
+        "Pavitra off the finger onto the ear before washing feet; put back after namo brahmaṇya.",
+        "Mantra akṣaras from GVM; accents later."
+    ],
+    "steps": [
+        {
+            "id": "02-01-01",
+            "title": "ಸಾಮಗ್ರಿ ತೆಗೆದುಕೊಂಡು ಅಂಗಳಕ್ಕೆ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "GVM",
+            "action_kn": "ದೊಣ್ಣೆಯಲ್ಲಿ ಕಲಶೋದಕ + ದರ್ಭೆ ತುಂಡು + ಗೋಮಯ. ಬಾಳೆಲೆಯ ಒಂದು ಪಾಶ್ವದಲ್ಲಿ ಗಂಧ+ಯವ, ಇನ್ನೊಂದು ಪಾಶ್ವದಲ್ಲಿ ಗಂಧ+ತಿಲ. ಉದ್ದರಣೆ, ಪಾದಪ್ರಕ್ಷಾಲನ ನೀರಿನ ದೊಡ್ಡ ಪಾತ್ರೆ, ಚೆಂಬು. ಅಂಗಳಕ್ಕೆ ಹೋಗಿ."
+        },
+        {
+            "id": "02-01-02",
+            "title": "ವಿಶ್ವೇದೇವ ಚತುರಸ್ರ ಮಂಡಲ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "sanskrit_rubric": "ಗೃಹಾಂಗಣೇ ಗೋಮಯಸಹಿತೇನ ಉತ್ತರತಃ ಸವ್ಯೇನ ದೇವಾರ್ಥೇ ಚತುರಸ್ರ ಮಂಡಲಂ ಕೃತ್ವಾ",
+            "action_kn": "ಸವ್ಯ. ಕುಳಿತು ತನಗೆ ಅಭಿಮುಖ ಉತ್ತರಕ್ಕೆ ವಿಶ್ವೇದೇವರಿಗೆ ಚಿಕ್ಕ ಚತುರಸ್ರ ಮಂಡಲ — ಗೋಮಯ + ದೊಣ್ಣೆ ಕಲಶೋದಕ."
+        },
+        {
+            "id": "02-01-03",
+            "title": "ಪಿತೃ ವರ್ತುಲ ಮಂಡಲ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "sanskrit_rubric": "ಪದಾಂಗುಲಂ ವಿಹಾಯ ತದ್ದಕ್ಷಿಣೇ ಪ್ರಾಚೀನಾವೀತಿನಾ ಪಿತೃರ್ಥೇ ವರ್ತುಲಾಕಾರ ಮಂಡಲಂ ಕೃತ್ವಾ",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ವಿಶ್ವೇದೇವ ಮಂಡಲದಿಂದ ಸ್ವಲ್ಪ ದಕ್ಷಿಣಕ್ಕೆ ಪಿತೃ/ಮಾತೃ ವರ್ತುಲ ಮಂಡಲ — ಗೋಮಯ + ಕಲಶೋದಕ.",
+            "variant_sb": "SB also draws optional Viṣṇu caturasra (yava) after these two."
+        },
+        {
+            "id": "02-01-04",
+            "title": "ವಿಶ್ವೇದೇವ ಪಾದ್ಯಮಂಡಲ ಪೂಜೆ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಸವ್ಯ. ಚತುರಸ್ರ ಮಂಡಲದ ಮೇಲೆ: ಎರಡು ದರ್ಭೆ ಪೂರ್ವಾಗ್ರ; ಉದ್ದರಣೆ ನೀರು; ಗಂಧ; ಯವ; ಕುಶ ತುಂಡು ಪಟ್ಟಿಯಾಗಿ ಪೂರ್ವಕ್ಕೆ. ನಂತರ ಯವಸಹಿತ ಉದಕ ಎರಡು ಸಲ.",
+            "mantras": [
+                {"id": "dev_asana", "unicode": "ವಿಶ್ವೇದೇವ ಪಾದ್ಯಮಂಡಲ ಸ್ಥಾನೇ ಇದಮಿದಮಾಸನಮ್ೖ"},
+                {"id": "dev_apah", "unicode": "ಪಾದ್ಯಸ್ಥಾನೇ ಇಮಾ ಆಪಃೖ"},
+                {"id": "dev_gandhah", "unicode": "ಇಮೇ ಗಂಧಾಃೖ"},
+                {"id": "dev_yavah", "unicode": "ಇಮೇ ಯವಾಃೖ"},
+                {"id": "dev_kusah", "unicode": "ಇಮೇ ಕುಶಾಃೖ"},
+                {"id": "dev_sampurna", "unicode": "ಯವಸಹಿತ ಉದಕೇನೈವ ಅಷ್ಟಾಪೃಕ್ತ್ಯಾ ಸಂಪೂರ್ಣಾಚಮನಮ್ೖ"}
+            ],
+            "priest_reply": "ಸಂಪೂರ್ಣಾಚಮನಂ ಅಸ್ತು"
+        },
+        {
+            "id": "02-01-05",
+            "title": "ಪಿತೃ ಪಾದ್ಯಮಂಡಲ ಪೂಜೆ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ವರ್ತುಲ ಮಂಡಲ: ನೀರು ಎರಡು ಸಲ ಪಾದ್ಯಾರ್ಥ; ಗಂಧ; ತಿಲ; ಮೂರು ದರ್ಭೆ ಉತ್ತರದಿಂದ ದಕ್ಷಿಣಕ್ಕೆ. ನಂತರ ತಿಲಸಹಿತ ಉದಕ ಮೂರು ಸಲ. ಕರ್ತೃ ಸಂಪೂರ್ಣಾಚಮನ ಹೇಳಿ.",
+            "mantras": [
+                {"id": "pit_asana", "unicode": "ಪಿತೃ (ಮಾತೃ) ಪಾದ್ಯಮಂಡಲಸ್ಥಾನೇ ಇದಮಿದಮಾಸನಮ್ೖ"},
+                {"id": "pit_pujah", "unicode": "ಪಾದ್ಯಸ್ಥಾನೇ ಇಮಾ ಆಪಃೕ ಇಮೇ ಗಂಧಾಃೕ ಇಮೇ ತಿಲಾಃೕ ಇಮೇ ಕುಶಾಃೖ"},
+                {"id": "pit_sampurna", "unicode": "ತಿಲಸಹಿತ ಉದಕೇನೈವ ಅಷ್ಟಾಪೃಕ್ತ್ಯಾ ಸಂಪೂರ್ಣಾಚಮನಮ್ೖ"}
+            ],
+            "priest_reply": "ಅಸ್ತು"
+        },
+        {
+            "id": "02-01-06",
+            "title": "ವಿಶ್ವೇದೇವರನ್ನು ಮಂಡಲಕ್ಕೆ ಕರೆ — ಸ್ವಾಗತ + ದರ್ಭೆ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಸವ್ಯ. ವಿಶ್ವೇದೇವ ಬ್ರಾಹ್ಮಣನ್ನು ಚತುರಸ್ರ ಮಂಡಲಕ್ಕೆ ಕರೆ. ಎರಡು ದರ್ಭೆ ಪಾದಗಳ ಮುಂದೆ ದಕ್ಷಿಣದಿಂದ ಉತ್ತರಕ್ಕೆ ಎಳೆದು ಉತ್ತರಕ್ಕೆ ಹಾಕಿ.",
+            "mantras": [
+                {"id": "visva_sthanam", "unicode": "ಪುರೂರವಾರ್ದ್ರವ ಸಂಜ್ಞಕಾ ವಿಶ್ವೇದೇವಾಃ ದಕ್ಷಿಣಾದುತ್ತರತಃ ಸ್ಥಾನಮ್ೖ"},
+                {"id": "svagatam", "kartṛ": "ಸ್ವಾಗತಮ್", "priest_reply": "ಸುಸ್ವಾಗತಮ್"}
+            ]
+        },
+        {
+            "id": "02-01-07",
+            "title": "ವಿಶ್ವೇದೇವ ಪಾದ್ಯ — ಎರಡು ಸಲ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ಬಲಗಾಲ ಪಾದದ ಮೇಲೆ ಗಂಧ + ಎರಡು ದರ್ಭೆ + ಯವ; ದೊಣ್ಣೆ ನೀರಿನಿಂದ ಅಕ್ಷತ ಸಹಿತ ಪಾದ್ಯ ಎರಡು ಸಲ.",
+            "mantras": [
+                {"id": "visva_padya", "unicode": "ಪುರೂರವಾರ್ದ್ರವ ಸಂಜ್ಞಕಾ ವಿಶ್ವೇದೇವಾಃ ಸಗಂಧಕುಶಯವೋದಕೇನ ಸ್ವಾಗತಾನಂತರಂ ಇದಂ ವಃ ಪಾದ್ಯಂೕ ಇದಂ ವಃ ಪಾದ್ಯಂೖ"}
+            ],
+            "priest_reply": "ಅಸ್ತು ಪಾದ್ಯಮ್ / ಸುಪಾದ್ಯಮ್"
+        },
+        {
+            "id": "02-01-08",
+            "title": "ಪವಿತ್ರಂ ವಿನಾ + ವಿಶ್ವೇದೇವ ಪಾದಪ್ರಕ್ಷಾಲನ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ಪವಿತ್ರವನ್ನು ಬೆರಳಿನಿಂದ ತೆಗೆದು ಬಲಕಿವಿಗೆ ಸಿಕ್ಕಿಸಿ. ಶಂ ನೋ ದೇವೀ + ನಮೋ ಬ್ರಹ್ಮಣ್ಯದೇವಾಯ ಎಂದು ವಿಶ್ವೇದೇವ ಪಾದ ತೊಳೆ. ನಂತರ ಪವಿತ್ರವನ್ನು ಮತ್ತೆ ಅನಾಮಿಕೆಗೆ ಧರಿಸಿ.",
+            "mantras": [
+                {"id": "pavitram_vina", "unicode": "ಪವಿತ್ರಂ ವಿನಾೖ"},
+                {"id": "sam_no_devi", "source_mantra": "RV 10.9.4", "accent_status": "pass-2", "unicode": "ಶಂ ನೋ ದೇವೀರಭಿಷ್ಟಯ ಆಪೋ ಭವಂತು ಪೀತಯೇೕ\nಶಂ ಯೋರಭಿ ಸ್ರವಂತು ನಃೖ"},
+                {"id": "namo_brahmanya", "source_mantra": "unknown / Viṣṇu Purāṇa prayoga", "unicode": "ನಮೋ ಬ್ರಹ್ಮಣ್ಯದೇವಾಯ ಗೋಬ್ರಾಹ್ಮಣ ಹಿತಾಯ ಚೕ\nಜಗದ್ಧಿತಾಯ ಕೃಷ್ಣಾಯ ಗೋವಿಂದಾಯ ನಮೋ ನಮಃೖ"}
+            ],
+            "after": "ಪುನಃ ಪವಿತ್ರಂ ಧೃತ್ವಾ"
+        },
+        {
+            "id": "02-01-09",
+            "title": "ಪಿತೃವನ್ನು ಮಂಡಲಕ್ಕೆ ಕರೆ — ಸ್ವಾಗತ + ಮೂರು ದರ್ಭೆ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ಸವ್ಯದಲ್ಲೇ ಸ್ವಾಗತಮ್. ಮೂರು ದರ್ಭೆ ಉತ್ತರದಿಂದ ದಕ್ಷಿಣಕ್ಕೆ ಪಿತೃ ಬ್ರಾಹ್ಮಣನ ಪಾದಗಳ ಮುಂದೆ ಎಳೆದು ದಕ್ಷಿಣಕ್ಕೆ ಹಾಕಿ. ವರ್ತುಲ ಮಂಡಲಕ್ಕೆ ಕರೆ.",
+            "mantras": [
+                {"id": "pitru_names", "unicode": "ಪಿತೃಪಿತಾಮಹಪ್ರಪಿತಾಮಹಾಃ (ಮಾತೃಪಿತಾಮಹೀಪ್ರಪಿತಾಮಹ್ಯಃ) ಉತ್ತರಾದ್ದಕ್ಷಿಣತಃ ತ್ರೀನ್ ದರ್ಭಾನ್ ನಿಕ್ಷಿಪ್ಯೖ"},
+                {"id": "svagatam_pit", "kartṛ": "ಸ್ವಾಗತಮ್", "priest_reply": "ಸುಸ್ವಾಗತಮ್"}
+            ]
+        },
+        {
+            "id": "02-01-10",
+            "title": "ಪಿತೃ ಪಾದ್ಯ — ಮೂರು ಸಲ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ಎಡಗಾಲ ಪಾದದ ಮೇಲೆ ಗಂಧ + ಎರಡು ದರ್ಭೆ + ತಿಲ; ನೀರಿನಿಂದ ಪಾದ್ಯ ಮೂರು ಸಲ.",
+            "mantras": [
+                {"id": "pitru_padya", "unicode": "ಪಿತೃಪಿತಾಮಹಪ್ರಪಿತಾಮಹಾಃ ___ದೇವಶರ್ಮಾಣಃ ___ಗೋತ್ರಾಃ ವಸುರುದ್ರಾದಿತ್ಯರೂಪಾಃ ಸಗಂಧಕುಶತಿಲೋದಕೇನ ಸ್ವಾಗತಾನಂತರಂ ಇದಂ ವಃ ಪಾದ್ಯಮ್ೕ ಇದಂ ವಃ ಪಾದ್ಯಮ್ೕ ಇದಂ ವಃ ಪಾದ್ಯಮ್ೖ"}
+            ],
+            "priest_reply": "ಅಸ್ತು ಪಾದ್ಯಮ್"
+        },
+        {
+            "id": "02-01-11",
+            "title": "ಪವಿತ್ರಂ ವಿನಾ + ಪಿತೃ ಪಾದಪ್ರಕ್ಷಾಲನ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಪವಿತ್ರ ಕಿವಿಗೆ. ಸವ್ಯ. ಶಂ ನೋ ದೇವೀ + ನಮೋ ಬ್ರಹ್ಮಣ್ಯದೇವಾಯ ಎಂದು ಪಿತೃ ಬ್ರಾಹ್ಮಣನ ಎರಡು ಪಾದ ತೊಳೆ (ವಿಶ್ವೇದೇವದಂತೆ).",
+            "same_as": "02-01-08 mantras"
+        },
+        {
+            "id": "02-01-12",
+            "title": "ಪಾದಪ್ರಕ್ಷಾಲಿತೋದಕ ಶಿರಸಿ + ಬಾಳೆಲೆ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ಪಾದ ತೊಳೆದ ಉದಕವನ್ನು ಕರ್ತೃಗಳು ತಲೆಯ ಮೇಲೆ ಪ್ರೋಕ್ಷಿಸಿ. ಬಾಳೆಲೆಯನ್ನು ಪಾದಪ್ರಕ್ಷಾಲನ ಸ್ಥಳದಲ್ಲಿ ತಲೆಕೆಳಗೆ ದಕ್ಷಿಣಾಗ್ರವಾಗಿ ಹಾಕಿ, ಮೇಲೆ ಸ್ವಲ್ಪ ಗೋಮಯ.",
+            "mantras": [
+                {"id": "yad_ishtvasi", "source_mantra": "unknown", "unicode": "ಯದಿಷ್ಟ್ವಾಸಿ ಮಹಾರಾಜ ಸರ್ವತೀರ್ಥಾವಗಾಹನಮ್ೕ\nವಿಷ್ಣುಪಾದವಿನಿರ್ಮುಕ್ತಂ ತೋಯಂ ಶಿರಸಿ ಧಾರಯೖ"},
+                {"id": "prthivyam", "source_mantra": "unknown", "unicode": "ಪೃಥಿವ್ಯಾಂ ಯಾನಿ ತೀರ್ಥಾನಿ ತಾನಿ ತೀರ್ಥಾನಿ ಸಾಗರೇೕ\nಸಾಗರೇ ಸರ್ವತೀರ್ಥಾನಿ ಪದೇ ವಿಷ್ಣೋಸ್ತು ದಕ್ಷಿಣೇೖ"}
+            ],
+            "sanskrit_rubric": "ಗಂಧಪಾತ್ರಂ ಮಂಡಲೇ ದಕ್ಷಿಣಾಗ್ರಂ ನಿಧಾಯ"
+        },
+        {
+            "id": "02-01-13",
+            "title": "ಕರ್ತೃ ಪಾದಪ್ರಕ್ಷಾಲನ + ದ್ವಿರಾಚಮನ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ಮುಖ್ಯ ಕರ್ತೃ ಪವಿತ್ರ ತೆಗೆದು ಗಂಟು ಬಿಚ್ಚಿ ತಲೆಕೆಳಗಿನ ಬಾಳೆಲೆ ಬಳಿ ಹಾಕಿ. ಕೈಕಾಲು ತೊಳೆದು ಮಂಡಲಗಳ ಈಶಾನ್ಯದಲ್ಲಿ ಪೂರ್ವಾಭಿಮುಖ ಕುಳಿತು ದ್ವಿರಾಚಮನ. ನಂತರ ಬ್ರಾಹ್ಮಣರು ಆಚಮನ (ವಿಶ್ವೇದೇವ: ಮಂಡಲದ ಪೂರ್ವಕ್ಕೆ ಉತ್ತರಾಭಿಮುಖ).",
+            "sanskrit_rubric": "ಪವಿತ್ರಂ ವಿಸೃಜ್ಯೕ ಕರ್ತಾ ಸ್ವಯಂ ಪಾದಪ್ರಕ್ಷಾಲ್ಯೕ ಈಶಾನ್ಯೇ ಮುಖ್ಯ ಉಪವಿಶ್ಯೕ ಆಚಮ್ಯೕ ವಿಶ್ವೇದೇವಾಃ ಪ್ರಾಚ್ಯಾಂೕ ಇತರೇ ಉತ್ತರಾಭಿಮುಖಾಃೕ ದ್ವಿರಾಚಾಮೇತ್ೖ",
+            "variant_note": "GVM: kartṛ ācamana at the wash-spot. SB same order kartṛ first then bhojanārtha brāhmaṇas."
+        },
+        {
+            "id": "02-01-14",
+            "title": "ಒಳಗೆ ಬಂದು ಹೊಸ ಪವಿತ್ರ + ಸಂಕಲ್ಪ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "same_as": "01-05 / 01-09-08 prefix; reuse when pruning",
+            "action_kn": "ಮನೆಯೊಳಗೆ ಬಂದು ಬೇರೆ ಪವಿತ್ರ ಅನಾಮಿಕೆಗೆ. ಪ್ರಾಣಾಯಾಮ + ದೇಶಕಾಲ. ಭವದನುಜ್ಞಯಾ ಅಸ್ಮತ್ಪಿತುಃ/ಮಾತುಃ ಪ್ರಕೃತಂ ಪ್ರತಿಸಾಂವತ್ಸರಿಕ ಮೃತಾಹನ್ನ ಶ್ರಾದ್ಧಕರ್ಮ ಕರಿಷ್ಯೇ.",
+            "priest_reply_gvm": "ಕುರುಷ್ವ",
+            "mantras": [
+                {"id": "sankalpa_stub", "unicode": "ಓಂ ಓಂ ಓಂ … ಏವಂ ಗುಣೇತ್ಯಾದಿ ಪುಣ್ಯತಿಥೌ ಭವದನುಜ್ಞಯಾ ಅಸ್ಮತ್ಪಿತುಃ (ಮಾತುಃ) ಪ್ರಕೃತಂ ಪ್ರತಿಸಾಂವತ್ಸರಿಕ ಮೃತಾಹನ್ನ ಶ್ರಾದ್ಧಕರ್ಮ ಕರಿಷ್ಯೇೖ"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "section_id": "02",
+    "subsection_id": "02-02",
+    "title": "ಸ್ಥಲಶುದ್ಧಿ",
+    "same_as_previous": false,
+    "default_source": "GVM",
+    "yajnopavita_default": "pracinaviti",
+    "place": "ಶ್ರಾದ್ಧಕರ್ಮ ಸ್ಥಳ; ದ್ವಾರ; ಪಿತೃ ಮತ್ತು ವಿಶ್ವೇದೇವ ಪುರತಃ",
+    "items_needed_now": [
+        "ತಿಲ",
+        "ದರ್ಭೆ",
+        "ಕೂಚ",
+        "ಯವ",
+        "ಪರಿಧಾನೀಯ ವಸ್ತ್ರದಂಚು"
+    ],
+    "notes": [
+        "GVM: apradakṣiṇa tila vikira, then dvāra rakṣa, then pitṛ then visva bhūmi-prokṣa.",
+        "udīratām = RV 10.15.1; accents pass-2."
+    ],
+    "steps": [
+        {
+            "id": "02-02-01",
+            "title": "ಅಪಗಚ್ಛಂತು + ಅಪ್ರದಕ್ಷಿಣ ತಿಲವಿಕಿರ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಪ್ರಾಚೀನಾವೀತಿ. ರಾಕ್ಷಸ-ಪಿಶಾಚ ಬಾಧೆ ತೊಲಗಲು ಈ ಮಂತ್ರದಿಂದ ಎಳ್ಳನ್ನು ಅಪ್ರದಕ್ಷಿಣವಾಗಿ ಕರ್ಮಸ್ಥಳದಲ್ಲಿ ಎರಚು.",
+            "mantras": [
+                {
+                    "id": "apagacchantu",
+                    "source_mantra": "unknown",
+                    "unicode": "ಅಪಗಚ್ಛಂತು ಅಸುರಾ ರಕ್ಷಾಂಸಿ ಪಿಶಾಚಾಃ ಯೇ ಕ್ಷಯಂತಿ ಪೃಥಿವೀಮನುೕ\nಅಸ್ತುತ್ರತೋ ಗಚ್ಛಂತು ಯತ್ರೈಷಾಂ ಗತಂ ಮನಃೖ"
+                }
+            ],
+            "sanskrit_rubric": "ಇತಿ ಅಪ್ರದಕ್ಷಿಣಂ ತಿಲಾನ್ ವಿಕಿರೇತ್"
+        },
+        {
+            "id": "02-02-02",
+            "title": "ದ್ವಾರ ರಕ್ಷೆ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ದ್ವಾರವಿಘ್ನ ನಿವಾರಣೆ / ರಾಕ್ಷಸಬಾಧಾ ಪರಿಹಾರಕ್ಕೆ ಸತಿಲ ಕುಶವನ್ನು ದ್ವಾರದಲ್ಲಿ ಇಡು. ಸ್ವರಕ್ಷೆಗೆ ಪರಿಧಾನೀಯ ವಸ್ತ್ರದ ಅಂಚು ಕಟ್ಟು.",
+            "sanskrit_rubric": "ದ್ವಾರವಿಘ್ನನಿವಾರಣಾರ್ಥಂ ರಾಕ್ಷಸಬಾಧಾಪರಿಹಾರಾರ್ಥಂ ಸತಿಲಕುಶಾನ್ ದ್ವಾರದೇಶೇ ನಿಕ್ಷಿಪ್ಯ ಸ್ವರಕ್ಷಾರ್ಥಂ ಪರಿಧಾನೀಯವಸ್ತ್ರದಶಾಂ ಬಧ್ವಾ"
+        },
+        {
+            "id": "02-02-03",
+            "title": "ಉದೀರತಾಂ + ಪಿತೃ ಪುರತಃ ಪ್ರೋಕ್ಷ",
+            "yajnopavita": "pracinaviti",
+            "yajnopavita_cue": false,
+            "source": "both",
+            "action_kn": "ಪಿತೃಬ್ರಾಹ್ಮಣನ ಮುಂದೆ: ಕೂಚದಿಂದ ಪ್ರೋಕ್ಷ; ಮೂರು ದರ್ಭೆಯಿಂದ ಗುಡಿಸು; ಪುನಃ ಪ್ರೋಕ್ಷ; ವರ್ತುಲ ಮಂಡಲ; ಮೂರು ದರ್ಭೆ + ತಿಲ ಇಡು.",
+            "mantras": [
+                {
+                    "id": "udiratam",
+                    "source_mantra": "RV 10.15.1",
+                    "accent_status": "pass-2",
+                    "unicode": "ಉದೀರತಾಂ ಅವರ ಉತ್ಪರಾಸ ಉನ್ಮಧ್ಯಮಾಃ ಪಿತರಃ ಸೋಮ್ಯಾಸಃೕ\nಅಸುಂ ಯ ಈಯುರವೃಕಾ ಋತಜ್ಞಾಸ್ತೇನೋೕವಂತು ಪಿತರೋ ಹವೇಷುೖ"
+                }
+            ],
+            "sanskrit_rubric": "ಪಿತೃಪುರತಃ ಭೂಮಿಂ ಪ್ರೋಕ್ಷ್ಯೕ ದರ್ಭೇಣ ಖಾತ್ವಾೕ ಪುನಃ ಪ್ರೋಕ್ಷ್ಯೕ ವರ್ತುಲಾಕಾರ ಮಂಡಲಂ ಕೃತ್ವಾೕ ತಿಲದರ್ಭಾನ್ ನಿಧಾಯೖ"
+        },
+        {
+            "id": "02-02-04",
+            "title": "ವಿಶ್ವೇದೇವ ಪುರತಃ ಪ್ರೋಕ್ಷ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": true,
+            "source": "both",
+            "action_kn": "ಸವ್ಯ. ವಿಶ್ವೇದೇವ ಬ್ರಾಹ್ಮಣನ ಮುಂದೆ: ಕೂಚ ಪ್ರೋಕ್ಷ; ಎರಡು ದರ್ಭೆಯಿಂದ ಗುಡಿಸು; ಪುನಃ ಪ್ರೋಕ್ಷ; ಚತುರಸ್ರ ಮಂಡಲ; ಎರಡು ದರ್ಭೆ + ಯವ ಇಡು.",
+            "sanskrit_rubric": "ವಿಶ್ವೇದೇವಾನ್ ಭವತುೕ ವಿಶ್ವೇದೇವಪುರತಃ ಭೂಮಿಂ ಪ್ರೋಕ್ಷ್ಯೕ ದರ್ಭೇಣ ಖಾತ್ವಾೕ ಪುನಃ ಪ್ರೋಕ್ಷ್ಯೕ ಚತುರಸ್ರ ಮಂಡಲಂ ಕೃತ್ವಾೕ ಯವದರ್ಭಾನ್ ನಿಧಾಯೖ",
+            "variant_sb": "SB also prokṣa in front of Viṣṇu-sthāna if that brāhmaṇa is seated."
+        }
+    ]
+}

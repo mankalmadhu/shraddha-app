@@ -18,5 +18,15 @@
         "Pavitra off the finger onto the ear before washing feet; put back after namo brahmaṇya.",
         "Mantra akṣaras from GVM; accents later."
     ],
-    "steps": []
+    "steps": [
+        {
+            "id": "02-01-01",
+            "title": "ಸಾಮಗ್ರಿ ತೆಗೆದುಕೊಂಡು ಅಂಗಳಕ್ಕೆ",
+            "yajnopavita": "upaviti_savya",
+            "yajnopavita_cue": false,
+            "source": "GVM",
+            "action_kn": "ದೊನ್ನೆಯಲ್ಲಿ ಕಲಶೋದಕ + ದರ್ಭೆ ತುಂಡು + ಗೋಮಯ. ಬಾಳೆಲೆಯ ಒಂದು ಪಾಶ್ವದಲ್ಲಿ ಗಂಧ+ಯವ, ಇನ್ನೊಂದು ಪಾಶ್ವದಲ್ಲಿ ಗಂಧ+ತಿಲ. ಉದ್ದರಣೆ, ಪಾದಪ್ರಕ್ಷಾಲನ ನೀರಿನ ದೊಡ್ಡ ಪಾತ್ರೆ, ಚೆಂಬು. ಅಂಗಳಕ್ಕೆ ಹೋಗಿ.",
+            "sanskrit_rubric": "ಪಾದ್ಯಾರ್ಥಂ ಕಲಶೋದಕಂ ಯವ, ತಿಲ,ಗಂಧ,ದರ್ಭಾನ್ ಆದಾಯ"
+        }
+    ]
 }
